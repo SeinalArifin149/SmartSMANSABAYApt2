@@ -1,5 +1,7 @@
 <?php
 require_once '../../config/koneksi.php';
+require_once '../../config/debug.php';
+
 
 // Ambil data produk dari tabel barang join kategori_barang
 $data_produk = [];
